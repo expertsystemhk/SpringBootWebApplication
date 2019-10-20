@@ -4,7 +4,7 @@ resources:
 - name: spring-boot
   type: git
   source:
-    uri: https://github.com/philwebb/spring-boot-concourse.git
+    uri:https://github.com/expertsystemhk/SpringBootWebApplication.git
     branch: {{branch}}
     ignore_paths:
     - ci/docker-builds/*
@@ -12,7 +12,7 @@ resources:
 - name: ci-base-docker-build
   type: git
   source:
-    uri: https://github.com/philwebb/spring-boot-concourse.git
+    uri:https://github.com/expertsystemhk/SpringBootWebApplication.git
     branch: {{branch}}
     paths:
     - ci/docker-builds/base/*
@@ -20,7 +20,7 @@ resources:
 - name: ci-docker-build
   type: git
   source:
-    uri: https://github.com/philwebb/spring-boot-concourse.git
+    uri:https://github.com/expertsystemhk/SpringBootWebApplication.git
     branch: {{branch}}
     paths:
     - ci/docker-builds/ci/*
